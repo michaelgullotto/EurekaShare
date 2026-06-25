@@ -1,6 +1,6 @@
 {
-    "mode": "pub",
-    "identity": "sender",
+    "mode": "view",
+    "identity": "pcView",
     "participantName": "",
     "url": "ws://192.168.1.177:7880",
     "tokenServerUrl": "http://192.168.1.177:3000/token",

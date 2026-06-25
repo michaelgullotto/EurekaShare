@@ -46,7 +46,10 @@ public class QualityCommandPacket
 public enum StreamQualityState
 {
     Idle,
-    Small,
+    Small2x2,
+    Small3x3,
+    Small4x4,
+    Small5x5,
     Big
 }
 
@@ -125,8 +128,10 @@ public class MyLivekitManager : MonoBehaviour
     private LocalVideoTrack currentPublishedVideoTrack;
     private Coroutine currentPublishedVideoSourceUpdateCoroutine;
 
-    private StreamQualityState currentStreamQualityState = StreamQualityState.Small;
+    private StreamQualityState currentStreamQualityState = StreamQualityState.Small3x3;
     private bool qualityChangeInProgress = false;
+
+    private int currentGridColumns = 2;
 
     // Publisher-side metrics
     private int publisherFramesThisWindow = 0;
@@ -239,7 +244,7 @@ public class MyLivekitManager : MonoBehaviour
         showLocalPreview = cfg.showLocalPreview;
 
         if (mode == "pub")
-            currentStreamQualityState = StreamQualityState.Small;
+            currentStreamQualityState = StreamQualityState.Small3x3;
 
         Debug.Log($"[CONFIG] Loaded from: {loadedFrom}");
         Debug.Log($"[CONFIG] persistentDataPath = {Application.persistentDataPath}");
@@ -262,6 +267,8 @@ public class MyLivekitManager : MonoBehaviour
 
         if (focusedVideoRoot != null)
             focusedVideoRoot.SetActive(false);
+
+        StartCoroutine(ApplyGridLayout(currentGridColumns));
 
         if (autoStart)
             StartCoroutine(AutoBoot());
@@ -622,6 +629,11 @@ public class MyLivekitManager : MonoBehaviour
 
         stream.Start();
         StartCoroutine(stream.Update());
+
+        if (currentFocusedParticipant != null)
+            SendQualityCommand(key, StreamQualityState.Idle);
+        else
+            CheckAndUpdateGridGroup();
     }
 
     private void TrackSubscribed(IRemoteTrack track, RemoteTrackPublication publication, RemoteParticipant participant)
@@ -684,6 +696,9 @@ public class MyLivekitManager : MonoBehaviour
             {
                 focusedVideoLabel.text = participant.Identity + "\nReconnecting...";
             }
+
+            if (currentFocusedParticipant == null)
+                CheckAndUpdateGridGroup();
         }
         else if (track is RemoteAudioTrack audioTrack)
         {
@@ -1018,6 +1033,7 @@ public class MyLivekitManager : MonoBehaviour
 
         if (mode == "view")
         {
+            StartCoroutine(ApplyGridLayout(currentGridColumns));
             SendGridQualityCommands();
         }
     }
@@ -1237,13 +1253,68 @@ public class MyLivekitManager : MonoBehaviour
 
     void SendGridQualityCommands()
     {
+        StreamQualityState state = GetGroupQualityState(currentGridColumns);
         foreach (var kvp in remoteVideoStreams)
         {
-            SendQualityCommand(kvp.Key, StreamQualityState.Small);
+            SendQualityCommand(kvp.Key, state);
         }
     }
 
  
+
+    private int GetGroupColumns(int senderCount)
+    {
+        if (senderCount <= 4) return 2;
+        if (senderCount <= 9) return 3;
+        if (senderCount <= 16) return 4;
+        return 5;
+    }
+
+    private StreamQualityState GetGroupQualityState(int columns)
+    {
+        switch (columns)
+        {
+            case 2: return StreamQualityState.Small2x2;
+            case 3: return StreamQualityState.Small3x3;
+            case 4: return StreamQualityState.Small4x4;
+            default: return StreamQualityState.Small5x5;
+        }
+    }
+
+    private void CheckAndUpdateGridGroup()
+    {
+        if (mode != "view") return;
+
+        int count = remoteVideoStreams.Count;
+        int newColumns = GetGroupColumns(count);
+        bool groupChanged = newColumns != currentGridColumns;
+
+        currentGridColumns = newColumns;
+        StartCoroutine(ApplyGridLayout(newColumns));
+
+        if (groupChanged)
+            SendGridQualityCommands();
+    }
+
+    private IEnumerator ApplyGridLayout(int columns)
+    {
+        yield return null;
+
+        if (layoutGroup == null) yield break;
+
+        RectTransform rt = layoutGroup.GetComponent<RectTransform>();
+        float w = rt.rect.width;
+        float h = rt.rect.height;
+
+        float cellW = Mathf.Floor(w / columns);
+        float cellH = Mathf.Floor(cellW * 9f / 16f);
+
+        layoutGroup.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        layoutGroup.constraintCount = columns;
+        layoutGroup.cellSize = new Vector2(cellW, cellH);
+        layoutGroup.spacing = Vector2.zero;
+        layoutGroup.padding = new RectOffset(0, 0, 0, 0);
+    }
 
     IEnumerator ApplyQualityStateByReconnect(StreamQualityState newState)
     {
@@ -1393,12 +1464,36 @@ public class MyLivekitManager : MonoBehaviour
                 maxVideoBitrate = 8000000;
                 break;
 
-            case StreamQualityState.Small:
+            case StreamQualityState.Small2x2:
+                captureWidth = 960;
+                captureHeight = 540;
+                frameRate = 60;
+                streamFrameRate = 60f;
+                maxVideoBitrate = 3000000;
+                break;
+
+            case StreamQualityState.Small3x3:
                 captureWidth = 640;
                 captureHeight = 360;
                 frameRate = 30;
                 streamFrameRate = 30f;
                 maxVideoBitrate = 600000;
+                break;
+
+            case StreamQualityState.Small4x4:
+                captureWidth = 480;
+                captureHeight = 270;
+                frameRate = 30;
+                streamFrameRate = 30f;
+                maxVideoBitrate = 300000;
+                break;
+
+            case StreamQualityState.Small5x5:
+                captureWidth = 384;
+                captureHeight = 216;
+                frameRate = 30;
+                streamFrameRate = 30f;
+                maxVideoBitrate = 200000;
                 break;
 
             case StreamQualityState.Idle:
