@@ -4,9 +4,47 @@
   "description": "Electron launcher for Eureka Share viewer host",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "make": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^37.2.0"
+    "electron": "^37.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.eurekashare.launcher",
+    "productName": "Eureka Share",
+    "directories": {
+      "output": "out"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "splash.html",
+      "styles.css",
+      "assets/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "LocalServers",
+        "to": "LocalServers"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/eurekasharelogo.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Eureka Share",
+      "installerIcon": "assets/eurekasharelogo.ico",
+      "uninstallerIcon": "assets/eurekasharelogo.ico",
+      "uninstallDisplayName": "Eureka Share"
+    }
   }
 }

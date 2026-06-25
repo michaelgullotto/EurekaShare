@@ -1,8 +1,7 @@
 {
   "type": "viewerHost",
-  "roomName": "Roomboy",
-  "ip": "192.168.1.177",
+  "roomName": "Room A",
+  "ip": "192.168.20.24",
   "tokenPort": 3000,
-  "livekitPort": 7880,
-  "password": "1234"
+  "livekitPort": 7880
 }

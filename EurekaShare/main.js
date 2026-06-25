@@ -12,7 +12,7 @@ let tokenServerProcess = null;
 let viewerProcess = null;
 
 function getLauncherRoot() {
-  return __dirname;
+  return app.isPackaged ? process.resourcesPath : __dirname;
 }
 
 function findFirstFile(folder, predicate) {
