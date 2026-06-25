@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: 65a2779e014037c4ab1adc497812f553
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8702785442140176717
+    second: ELN logo_0
+  - first:
+      213: -5203151017151809877
+    second: ELN logo_1
+  - first:
+      213: -1264121361694204399
+    second: ELN logo_2
+  - first:
+      213: 8894776268915512890
+    second: ELN logo_3
+  - first:
+      213: 7999741014665079629
+    second: ELN logo_4
+  - first:
+      213: -6215637105802316578
+    second: ELN logo_5
+  - first:
+      213: -8059608770253913094
+    second: ELN logo_6
+  - first:
+      213: -4821932477265037217
+    second: ELN logo_7
+  - first:
+      213: 901541020641211203
+    second: ELN logo_8
+  - first:
+      213: -2453468055806346872
+    second: ELN logo_9
+  - first:
+      213: -3793056407853240248
+    second: ELN logo_10
+  - first:
+      213: -5534441842850792623
+    second: ELN logo_11
+  - first:
+      213: -3971367377002209853
+    second: ELN logo_12
+  - first:
+      213: 6784845746661534637
+    second: ELN logo_13
+  - first:
+      213: -4948875593764466837
+    second: ELN logo_14
+  - first:
+      213: 7027274744366132421
+    second: ELN logo_15
+  - first:
+      213: -2615174341692475072
+    second: ELN logo_16
+  - first:
+      213: -4122211784989555677
+    second: ELN logo_17
+  - first:
+      213: 8834879751765635083
+    second: ELN logo_18
+  - first:
+      213: 4564250472192876799
+    second: ELN logo_19
+  - first:
+      213: -1789319348557947496
+    second: ELN logo_20
+  - first:
+      213: 1720293468639615003
+    second: ELN logo_21
+  - first:
+      213: 6306755704466680263
+    second: ELN logo_22
+  - first:
+      213: -521133910708315823
+    second: ELN logo_23
+  - first:
+      213: 4572843059558537064
+    second: ELN logo_24
+  - first:
+      213: 8938166504648982466
+    second: ELN logo_25
+  - first:
+      213: 5709219026956192827
+    second: ELN logo_26
+  - first:
+      213: 4327951013750493564
+    second: ELN logo_27
+  - first:
+      213: -318245882952959706
+    second: ELN logo_28
+  - first:
+      213: 2327654885846962342
+    second: ELN logo_29
+  - first:
+      213: 1912662141971721873
+    second: ELN logo_30
+  - first:
+      213: 6344342781134351992
+    second: ELN logo_31
+  - first:
+      213: 775086303230313332
+    second: ELN logo_32
+  - first:
+      213: 956135792771465129
+    second: ELN logo_33
+  - first:
+      213: -6789868515152541063
+    second: ELN logo_34
+  - first:
+      213: -5441484459474682334
+    second: ELN logo_35
+  - first:
+      213: 3748821748802446423
+    second: ELN logo_36
+  - first:
+      213: -1932656128448090451
+    second: ELN logo_37
+  - first:
+      213: 6327117815783425394
+    second: ELN logo_38
+  - first:
+      213: 5858688570514495669
+    second: ELN logo_39
+  - first:
+      213: 4308472018344099657
+    second: ELN logo_40
+  - first:
+      213: -6767134557349233764
+    second: ELN logo_41
+  - first:
+      213: 4140893965653379060
+    second: ELN logo_42
+  - first:
+      213: 3946650114166867469
+    second: ELN logo_43
+  - first:
+      213: 6576584914061842042
+    second: ELN logo_44
+  - first:
+      213: 2809573013778514958
+    second: ELN logo_45
+  - first:
+      213: 4714313484208654
+    second: ELN logo_46
+  - first:
+      213: -8070303026681057795
+    second: ELN logo_47
+  - first:
+      213: 5497357086629569199
+    second: ELN logo_48
+  - first:
+      213: -3964692149844274018
+    second: ELN logo_49
+  - first:
+      213: 338086533636913280
+    second: ELN logo_50
+  - first:
+      213: -163414494373944556
+    second: ELN logo_51
+  - first:
+      213: 3201036769037805760
+    second: ELN logo_52
+  - first:
+      213: 5924323465586934277
+    second: ELN logo_53
+  - first:
+      213: 4176702822986817056
+    second: ELN logo_54
+  - first:
+      213: 5813625116365700574
+    second: ELN logo_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ELN logo_0
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 722
+        width: 713
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3bccefbe793780800000000000000
+      internalID: -8702785442140176717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_1
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 899
+        width: 614
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba634f5a7b1bac7b0800000000000000
+      internalID: -5203151017151809877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_2
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 392
+        width: 877
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11edb33b150f47ee0800000000000000
+      internalID: -1264121361694204399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 149
+        width: 71
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a369849d3e7907b70800000000000000
+      internalID: 8894776268915512890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 149
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b2c32811ac40f60800000000000000
+      internalID: 7999741014665079629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_5
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 144
+        width: 111
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed47aefebfe9db9a0800000000000000
+      internalID: -6215637105802316578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_6
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 145
+        width: 123
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3846c6684862090800000000000000
+      internalID: -8059608770253913094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_7
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 145
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58b2b9a5fd051db0800000000000000
+      internalID: -4821932477265037217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_8
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 149
+        width: 49
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34333cd18cae28c00800000000000000
+      internalID: 901541020641211203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_9
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 145
+        width: 83
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889f4e16dc783fdd0800000000000000
+      internalID: -2453468055806346872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 248
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84073e42b4b5c5bc0800000000000000
+      internalID: -3793056407853240248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_11
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 145
+        width: 83
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bf1d67776b133b0800000000000000
+      internalID: -5534441842850792623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_12
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 149
+        width: 127
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd553d696ed2e8c0800000000000000
+      internalID: -3971367377002209853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_13
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 145
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daba499424d982e50800000000000000
+      internalID: 6784845746661534637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_14
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 145
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f81142edf025bb0800000000000000
+      internalID: -4948875593764466837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_15
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 149
+        width: 22
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc640dd525e58160800000000000000
+      internalID: 7027274744366132421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_16
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 145
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04934b1cac805bbd0800000000000000
+      internalID: -2615174341692475072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 24
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324c4c2d836fac6c0800000000000000
+      internalID: -4122211784989555677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 22
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b003845335ccb9a70800000000000000
+      internalID: 8834879751765635083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 24
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff027fc3f99775f30800000000000000
+      internalID: 4564250472192876799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 24
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d587f588f0b27e0800000000000000
+      internalID: -1789319348557947496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_21
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 24
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1850b39bc5bfd710800000000000000
+      internalID: 1720293468639615003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_22
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 22
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9a7e906e8168750800000000000000
+      internalID: 6306755704466680263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_23
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 22
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15912d3287f84c8f0800000000000000
+      internalID: -521133910708315823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_24
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 22
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867d892e880067f30800000000000000
+      internalID: 4572843059558537064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_25
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb5ec541fba0c70800000000000000
+      internalID: 8938166504648982466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_26
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 24
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c00aec4783b3f40800000000000000
+      internalID: 5709219026956192827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_27
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 24
+        width: 12
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71d3eb3488ff0c30800000000000000
+      internalID: 4327951013750493564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_28
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 24
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629bb5b3e0d559bf0800000000000000
+      internalID: -318245882952959706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_29
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 22
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a05c9649cd7d4020800000000000000
+      internalID: 2327654885846962342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_30
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 24
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19eef8b95142b8a10800000000000000
+      internalID: 1912662141971721873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ea3da4522ab0850800000000000000
+      internalID: 6344342781134351992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 22
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473405ed2e8a1ca00800000000000000
+      internalID: 775086303230313332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 24
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9affd2d0070e44d00800000000000000
+      internalID: 956135792771465129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_34
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a49ba4f8a85c1a0800000000000000
+      internalID: -6789868515152541063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ef33ed6b6fb74b0800000000000000
+      internalID: -5441484459474682334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_36
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 22
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754e0a7b48d760430800000000000000
+      internalID: 3748821748802446423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_37
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeaed6ad73dd25e0800000000000000
+      internalID: -1932656128448090451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_38
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 9
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27501d581207ec750800000000000000
+      internalID: 6327117815783425394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_39
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 22
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b85827d63e3e4150800000000000000
+      internalID: 5858688570514495669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_40
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f3c123974cacb30800000000000000
+      internalID: 4308472018344099657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_41
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 24
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bbde159fe4612a0800000000000000
+      internalID: -6767134557349233764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_42
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 22
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f704535f19677930800000000000000
+      internalID: 4140893965653379060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_43
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 36
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06cbab5e5155c630800000000000000
+      internalID: 3946650114166867469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_44
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 24
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7659d59229b44b50800000000000000
+      internalID: 6576584914061842042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_45
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 24
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04cac035cb9df620800000000000000
+      internalID: 2809573013778514958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_46
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 24
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a0694a4afb01000800000000000000
+      internalID: 4714313484208654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_47
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 22
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd6ae0d726800090800000000000000
+      internalID: -8070303026681057795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_48
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa22800e4298a4c40800000000000000
+      internalID: 5497357086629569199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_49
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 22
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9490ccde759af8c0800000000000000
+      internalID: -3964692149844274018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_50
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08875cc39ef11b400800000000000000
+      internalID: 338086533636913280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_51
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 24
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413e0b7126f6bbdf0800000000000000
+      internalID: -163414494373944556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_52
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 22
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8667b4bfd5c6c20800000000000000
+      internalID: 3201036769037805760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_53
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 24
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50202d4bdcc673250800000000000000
+      internalID: 5924323465586934277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_54
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 22
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e1080a611a6f930800000000000000
+      internalID: 4176702822986817056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELN logo_55
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 22
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd344ecd352ea050800000000000000
+      internalID: 5813625116365700574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ELN logo_0: -8702785442140176717
+      ELN logo_1: -5203151017151809877
+      ELN logo_10: -3793056407853240248
+      ELN logo_11: -5534441842850792623
+      ELN logo_12: -3971367377002209853
+      ELN logo_13: 6784845746661534637
+      ELN logo_14: -4948875593764466837
+      ELN logo_15: 7027274744366132421
+      ELN logo_16: -2615174341692475072
+      ELN logo_17: -4122211784989555677
+      ELN logo_18: 8834879751765635083
+      ELN logo_19: 4564250472192876799
+      ELN logo_2: -1264121361694204399
+      ELN logo_20: -1789319348557947496
+      ELN logo_21: 1720293468639615003
+      ELN logo_22: 6306755704466680263
+      ELN logo_23: -521133910708315823
+      ELN logo_24: 4572843059558537064
+      ELN logo_25: 8938166504648982466
+      ELN logo_26: 5709219026956192827
+      ELN logo_27: 4327951013750493564
+      ELN logo_28: -318245882952959706
+      ELN logo_29: 2327654885846962342
+      ELN logo_3: 8894776268915512890
+      ELN logo_30: 1912662141971721873
+      ELN logo_31: 6344342781134351992
+      ELN logo_32: 775086303230313332
+      ELN logo_33: 956135792771465129
+      ELN logo_34: -6789868515152541063
+      ELN logo_35: -5441484459474682334
+      ELN logo_36: 3748821748802446423
+      ELN logo_37: -1932656128448090451
+      ELN logo_38: 6327117815783425394
+      ELN logo_39: 5858688570514495669
+      ELN logo_4: 7999741014665079629
+      ELN logo_40: 4308472018344099657
+      ELN logo_41: -6767134557349233764
+      ELN logo_42: 4140893965653379060
+      ELN logo_43: 3946650114166867469
+      ELN logo_44: 6576584914061842042
+      ELN logo_45: 2809573013778514958
+      ELN logo_46: 4714313484208654
+      ELN logo_47: -8070303026681057795
+      ELN logo_48: 5497357086629569199
+      ELN logo_49: -3964692149844274018
+      ELN logo_5: -6215637105802316578
+      ELN logo_50: 338086533636913280
+      ELN logo_51: -163414494373944556
+      ELN logo_52: 3201036769037805760
+      ELN logo_53: 5924323465586934277
+      ELN logo_54: 4176702822986817056
+      ELN logo_55: 5813625116365700574
+      ELN logo_6: -8059608770253913094
+      ELN logo_7: -4821932477265037217
+      ELN logo_8: 901541020641211203
+      ELN logo_9: -2453468055806346872
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

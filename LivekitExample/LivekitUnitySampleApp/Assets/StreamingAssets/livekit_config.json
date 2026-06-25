@@ -1,0 +1,18 @@
+{
+    "mode": "pub",
+    "identity": "sender",
+    "participantName": "",
+    "url": "ws://192.168.1.177:7880",
+    "tokenServerUrl": "http://192.168.1.177:3000/token",
+    "token": "",
+    "autoStart": true,
+    "roomName": "room",
+    "password": "password",
+    "frameRate": 30,
+    "maxVideoBitrate": 2000000,
+    "enableSimulcast": false,
+    "captureWidth": 640,
+    "captureHeight": 360,
+    "streamFrameRate": 30.0,
+    "showLocalPreview": false
+}

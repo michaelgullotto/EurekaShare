@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eureka Share Launcher</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="card">
+      <!-- MAIN PAGE -->
+      <div id="mainPage">
+        <img src="./assets/logo.png" alt="Eureka Share Logo" class="logo-main" />
+
+        <h1>Eureka Share Launcher</h1>
+        <p class="subtitle">Enter A Room Name And Password Then Hit Launch To Start</p>
+
+        <div class="form-group">
+          <label for="roomName">Room Name</label>
+          <input id="roomName" type="text" placeholder="Enter room name" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter password" />
+        </div>
+
+        <div id="statusText" class="status-text">Ready</div>
+
+        <div class="button-row centered-buttons">
+          <button id="launchBtn" class="app-button">Launch</button>
+          <button id="stopBtn" class="app-button">Stop</button>
+          <button id="advancedBtn" class="app-button">Advanced</button>
+          <button id="closeBtn" class="app-button">Close</button>
+        </div>
+      </div>
+
+      <!-- ADVANCED PAGE -->
+      <div id="advancedPage" class="hidden">
+        <h2 class="advanced-title">Advanced</h2>
+
+        <div class="info-row">
+          <span class="label">Local IP</span>
+          <span id="ipValue" class="value">Loading...</span>
+        </div>
+
+        <div class="info-row small">
+          <span class="label">Viewer Build</span>
+          <span id="viewerPath" class="value mono">Resolving...</span>
+        </div>
+
+        <div class="log-wrap">
+          <div class="log-title">Launcher Log</div>
+          <textarea id="logOutput" readonly></textarea>
+        </div>
+
+        <div class="button-row centered-buttons">
+          <button id="returnBtn" class="app-button">Return</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &397917591623122313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7391705152068489950}
+  - component: {fileID: 7576549013721798903}
+  - component: {fileID: 5191177987740294749}
+  - component: {fileID: 8541415238572389153}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7391705152068489950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917591623122313}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -102.314896, y: 105.938416, z: -11.349209}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7576549013721798903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917591623122313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693f5374be3ab3b488577660852feee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MyLivekitManager
+  url: ws://127.0.0.1:7880
+  token: 
+  tokenServerUrl: http://127.0.0.1:3000/token
+  identity: Viewer
+  participantName: 
+  mode: view
+  autoStart: 1
+  captureCamera: {fileID: 0}
+  frameRate: 30
+  maxVideoBitrate: 1800000
+  enableSimulcast: 0
+  layoutGroup: {fileID: 0}
+  statusText: {fileID: 0}
+  showLocalPreview: 0
+  videoTilePrefab: {fileID: 6821640952747611590, guid: a35bbcbb4e317eb42952209c8f04d9c5, type: 3}
+  focusedVideoRoot: {fileID: 0}
+  focusedVideoImage: {fileID: 0}
+  focusedVideoLabel: {fileID: 0}
+  captureWidth: 960
+  captureHeight: 960
+  streamFrameRate: 30
+  captureRenderTexture: {fileID: 0}
+--- !u!114 &5191177987740294749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917591623122313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63189f2ae5c7aa1418c86c067570d966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Console
+  desktopToggleKey: 96
+  mobileUseFullScreenTap: 1
+  mobileTapRegionWidth: 220
+  mobileTapRegionHeight: 220
+  logFontSize: 28
+  buttonFontSize: 24
+  titleFontSize: 30
+--- !u!114 &8541415238572389153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917591623122313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f788ac3f92f735341a440ed0d0f8be2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleFpsOverlay
+  showFps: 1
+  offset: {x: 12, y: 12}
+  boxSize: {x: 140, y: 36}
+  fontSize: 22
+  updateInterval: 0.5

@@ -1,0 +1,12 @@
+port: 7880  # LiveKit port
+
+bind_addresses:
+#  - "127.0.0.1"  # Local only
+  - "0.0.0.0"
+
+keys:
+  devkey: secret  # API key and secret for local testing
+
+logging:
+  level: info      # Show warnings and errors, levels: debug, info, warn, and error
+  pion_level: error  # Hide most WebRTC noise

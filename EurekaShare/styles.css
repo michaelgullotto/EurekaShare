@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d1d1d;
+  background: #f4f4f4;
+}
+
+body {
+  overflow: hidden;
+}
+
+.app-shell {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 34px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
+}
+
+.hidden {
+  display: none;
+}
+
+.logo-main {
+  display: block;
+  width: 220px;
+  max-width: 55%;
+  height: auto;
+  margin: 0 auto 18px auto;
+}
+
+h1 {
+  margin: 0 0 4px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 0 0 0px 0;
+  text-align: center;
+  color: #555;
+  font-size: 15px;
+}
+
+.advanced-title {
+  margin: 0 0 24px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 14px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.info-row.small {
+  align-items: flex-start;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.value {
+  text-align: right;
+  word-break: break-all;
+}
+
+.mono {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
+.form-group {
+  margin-top: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.status-text {
+  margin-top: 20px;
+  min-height: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.button-row {
+  display: flex;
+  gap: 18px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.centered-buttons {
+  justify-content: center;
+  align-items: center;
+}
+
+.app-button {
+  width: 150px;
+  min-width: 150px;
+  padding: 12px 18px;
+  border: 2px solid #42cbe5;
+  border-radius: 10px;
+  background: #0b3c91;
+  color: #42cbe5;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.app-button:hover {
+  background: #42cbe5;
+  color: #0b3c91;
+}
+
+.log-wrap {
+  margin-top: 18px;
+}
+
+.log-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+#logOutput {
+  width: 100%;
+  min-height: 280px;
+  resize: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  padding: 12px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+  background: #fafafa;
+}
+
+.splash-body {
+  background: #ffffff;
+}
+
+.splash-shell {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 40px;
+  position: relative;
+}
+
+.logo-splash {
+  display: block;
+  width: 420px;
+  max-width: 70vw;
+  height: auto;
+}
+
+.splash-bottom-text {
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+}

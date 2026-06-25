@@ -1,0 +1,7 @@
+{
+  "type": "viewerHost",
+  "roomName": "Room A",
+  "ip": "192.168.20.24",
+  "tokenPort": 3000,
+  "livekitPort": 7880
+}
