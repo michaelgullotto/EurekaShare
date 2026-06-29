@@ -1,6 +1,6 @@
 {
   "name": "eureka-share-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron launcher for Eureka Share viewer host",
   "main": "main.js",
   "scripts": {

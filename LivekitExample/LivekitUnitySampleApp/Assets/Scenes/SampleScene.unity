@@ -6163,6 +6163,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 884954851}
     - target: {fileID: 7576549013721798903, guid: 72f7777d1aa876a46999b8eb9a78d9db, type: 3}
+      propertyPath: connectionIPText
+      value: 
+      objectReference: {fileID: 1838533181}
+    - target: {fileID: 7576549013721798903, guid: 72f7777d1aa876a46999b8eb9a78d9db, type: 3}
       propertyPath: focusedVideoRoot
       value: 
       objectReference: {fileID: 525332137}
@@ -6174,6 +6178,14 @@ PrefabInstance:
       propertyPath: focusedVideoLabel
       value: 
       objectReference: {fileID: 1899608118}
+    - target: {fileID: 7576549013721798903, guid: 72f7777d1aa876a46999b8eb9a78d9db, type: 3}
+      propertyPath: connectionRoomText
+      value: 
+      objectReference: {fileID: 588517403}
+    - target: {fileID: 7576549013721798903, guid: 72f7777d1aa876a46999b8eb9a78d9db, type: 3}
+      propertyPath: connectionPasswordText
+      value: 
+      objectReference: {fileID: 893657091}
     - target: {fileID: 8541415238572389153, guid: 72f7777d1aa876a46999b8eb9a78d9db, type: 3}
       propertyPath: m_Enabled
       value: 0
