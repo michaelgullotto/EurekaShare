@@ -77,6 +77,9 @@ public class MyLivekitManager : MonoBehaviour
     [Header("UI")]
     public GridLayoutGroup layoutGroup;
     public TMP_Text statusText;
+    public TMP_Text connectionIPText;
+    public TMP_Text connectionRoomText;
+    public TMP_Text connectionPasswordText;
     public bool showLocalPreview = false;
 
     [Header("Video Tile Prefab")]
@@ -245,6 +248,13 @@ public class MyLivekitManager : MonoBehaviour
 
         if (mode == "pub")
             currentStreamQualityState = StreamQualityState.Small3x3;
+
+        if (connectionIPText != null)
+            connectionIPText.text = "Address : " + url.Replace("ws://", "").Replace("/", "").Split(':')[0];
+        if (connectionRoomText != null)
+            connectionRoomText.text = "Room : " + roomName;
+        if (connectionPasswordText != null)
+            connectionPasswordText.text = "Password : " + password;
 
         Debug.Log($"[CONFIG] Loaded from: {loadedFrom}");
         Debug.Log($"[CONFIG] persistentDataPath = {Application.persistentDataPath}");
